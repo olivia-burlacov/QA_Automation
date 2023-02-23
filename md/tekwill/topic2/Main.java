@@ -1,4 +1,4 @@
-package md.tekwill;
+package md.tekwill.topic2;
 
 import md.tekwill.abstraction.Patrat;
 import md.tekwill.abstraction.Triunghi;
@@ -40,6 +40,16 @@ public class Main {
         triangle.CalculArie();
         Patrat square = new Patrat(5.5F);
         square.CalculArie();
+
+
+        Persoana person1 = new Persoana();
+        person1.nume = "Burlacov";
+        person1.prenume = "Olivia";
+        person1.setVarsta(25);
+        person1.setGen('F');
+        person1.greutate = 48.5;
+        person1.showPersonDetails();
+
 
     }
 
