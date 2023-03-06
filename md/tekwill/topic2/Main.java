@@ -1,4 +1,4 @@
-package md.tekwill;
+package md.tekwill.topic2;
 
 import md.tekwill.abstraction.Patrat;
 import md.tekwill.abstraction.Triunghi;
@@ -37,9 +37,17 @@ public class Main {
         dog.emiteSunet();
 
         Triunghi triangle = new Triunghi(3, 2.5F);
-        triangle.CalculArie();
+        triangle.calculArie();
         Patrat square = new Patrat(5.5F);
-        square.CalculArie();
+        square.calculArie();
+
+
+        Persoana person1 = new Persoana("Olivia", "Burlacov");
+        person1.setVarsta(25);
+        person1.setGen('F');
+        person1.greutate = 48.5;
+        person1.showPersonDetails();
+
 
     }
 

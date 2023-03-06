@@ -11,7 +11,7 @@ public class Triunghi extends FormaGeometrica {
     }
 
     @Override
-    public void CalculArie() {
+    public void calculArie() {
         result = (baza * inaltime) / 2;
         System.out.print("Aria triunghiului e " + result + " cm2\n");
     }
