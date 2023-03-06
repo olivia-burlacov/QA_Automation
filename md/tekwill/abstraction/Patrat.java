@@ -9,7 +9,7 @@ public class Patrat extends FormaGeometrica {
     }
 
     @Override
-    public void CalculArie() {
+    public void calculArie() {
         result = (float) Math.pow(latura, 2);
         System.out.print("Aria patratului e " + result + " cm2\n");
     }

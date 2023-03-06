@@ -37,14 +37,12 @@ public class Main {
         dog.emiteSunet();
 
         Triunghi triangle = new Triunghi(3, 2.5F);
-        triangle.CalculArie();
+        triangle.calculArie();
         Patrat square = new Patrat(5.5F);
-        square.CalculArie();
+        square.calculArie();
 
 
-        Persoana person1 = new Persoana();
-        person1.nume = "Burlacov";
-        person1.prenume = "Olivia";
+        Persoana person1 = new Persoana("Olivia", "Burlacov");
         person1.setVarsta(25);
         person1.setGen('F');
         person1.greutate = 48.5;

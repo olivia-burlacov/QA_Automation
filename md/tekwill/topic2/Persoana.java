@@ -10,8 +10,9 @@ public class Persoana {
     private char gen;
     public double greutate;
 
-    public Persoana() {
-
+    public Persoana(String prenume, String nume) {
+        this.prenume = prenume;
+        this.nume = nume;
     }
 
     public void setVarsta(int varsta) {
